@@ -17,6 +17,8 @@
 >   5. [fluent-ffmpeg](https://www.npmjs.com/package/fluent-ffmpeg)
 >   6. [puppeteer](https://www.npmjs.com/package/puppeteer)
 >   7. [videoshow](https://www.npmjs.com/package/videoshow)
+>   8. [serverless](https://www.npmjs.com/package/serverless)
+>   9. [serverless-offline](https://www.npmjs.com/package/serverless-offline)
 
 ### Requirements
 
