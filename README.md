@@ -27,9 +27,14 @@
 ### Execute
 
 > 1. in root folder write in `terminal`: `npm start` and wait for it to start (should take few seconds).
-> 2. inside `postman` send a `POST` request to `localhost:3000/dev/capture` with the body: `{ "url": "https://site.com" }`  
-![image](https://user-images.githubusercontent.com/38301471/120795752-8bdd9480-c542-11eb-842c-f6ab13fa16c2.png)
+> 2. inside `postman` send a `POST` request to `localhost:3000/dev/capture` with the body: `{ "url": "https://site.com" }`;  
+> please make sure that you include the header: `Content-Type` with the value `application/json`  
 
+>Body example:  
+![image](https://user-images.githubusercontent.com/38301471/120820288-13d09800-c55d-11eb-9d0f-de4fb775bf3a.png)
+
+>Headers example:  
+![image](https://user-images.githubusercontent.com/38301471/120820420-306cd000-c55d-11eb-930c-952b6b29e6df.png)
 
 ### Output
 
