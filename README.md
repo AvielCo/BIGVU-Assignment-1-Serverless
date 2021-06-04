@@ -26,7 +26,7 @@
 
 ### Execute
 
-> 1. in root folder write in `terminal`: `serverless offline` or `sls offline` and wait for it to start (should take few seconds).
+> 1. in root folder write in `terminal`: `npm start` and wait for it to start (should take few seconds).
 > 2. inside `postman` send a `POST` request to `localhost:3000/dev/capture` with the body: `{ "url": "https://site.com" }`
 
 ### Output
