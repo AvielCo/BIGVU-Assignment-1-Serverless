@@ -10,18 +10,19 @@ app.use(express.json());
 app.post("/capture", (req, res, next) => {
   try {
     const { url } = req.body;
+    console.log(url);
     console.log("Taking screenshot... ");
-    console.time(`screenshot`); // init timer
+    console.time(url); // init timer
     captureScreenShot(url)
       .then(() => {
-        console.timeEnd(`screenshot`); // end timer
+        console.timeEnd(url); // end timer
         console.log("Took screenshot successfully.");
 
         console.log("Creating video...");
-        console.time(`video`); // init timer
+        console.time(url); // init timer
         captureVideo()
           .then((output) => {
-            console.timeEnd(`video`); // end timer
+            console.timeEnd(url); // end timer
             console.log("Video created successfully.");
             res.status(200).send(output);
           })
@@ -29,8 +30,8 @@ app.post("/capture", (req, res, next) => {
       })
       .catch((err) => next(err));
   } catch (err) {
-    console.timeEnd(`screenshot`);
-    console.timeEnd(`video`);
+    console.timeEnd(url);
+    console.timeEnd(url);
     next(err);
   }
 });
