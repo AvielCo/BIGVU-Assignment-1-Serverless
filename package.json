@@ -2,6 +2,9 @@
   "name": "Assignment1",
   "version": "1.0.0",
   "description": "",
+  "scripts": {
+    "start": "sls offline"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "serverless-http": "^2.7.0",
