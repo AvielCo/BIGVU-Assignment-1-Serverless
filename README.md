@@ -27,8 +27,12 @@
 ### Execute
 
 > 1. in root folder write in `terminal`: `npm start` and wait for it to start (should take few seconds).
-> 2. inside `postman` send a `POST` request to `localhost:3000/dev/capture` with the body: `{ "url": "https://site.com" }`
+> 2. inside `postman` send a `POST` request to `localhost:3000/dev/capture` with the body: `{ "url": "https://site.com" }`  
+![image](https://user-images.githubusercontent.com/38301471/120795752-8bdd9480-c542-11eb-842c-f6ab13fa16c2.png)
+
 
 ### Output
 
-> Output will be the url of the video: `{ "file": "path/to/video.mp4" }`
+> Output will be the url of the video: `{ "file": "path/to/video.mp4" }`  
+![image](https://user-images.githubusercontent.com/38301471/120795816-a57edc00-c542-11eb-8333-cb9a4984fa81.png)
+
