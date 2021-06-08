@@ -1,5 +1,7 @@
 # BIGVU-Assignment-1
 
+#### for Assignment 2 [click here](https://github.com/AvielCo/BIGVU-Assignment-2)
+
 ## Description
 
 > Using AWS offline serverless to capture the screen of a given website and record it for 10 seconds.
